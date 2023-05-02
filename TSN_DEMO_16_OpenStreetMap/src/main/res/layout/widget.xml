@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/widget_window"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/обновление"
+        android:textColor="#ffffff"
+        android:textSize="18sp"></TextView>
+
+    <TextView
+        android:id="@+id/time_temp_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="65sp"
+        android:gravity="end"
+        android:text="@string/time_temp_update"
+        android:textColor="#ffffff"
+        android:textSize="12sp"></TextView>
+
+    <ImageView
+        android:id="@+id/weather_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/time_temp_update"
+        android:layout_marginTop="5dp"
+        android:maxHeight="40sp"
+        android:maxWidth="40sp"
+        android:minHeight="40sp"
+        android:minWidth="40sp"
+        app:srcCompat="@android:color/transparent" />
+
+</RelativeLayout>

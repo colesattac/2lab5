@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="101"
+        android:title="@string/О_программе" />
+    <item
+        android:id="@+id/newCheck"
+        android:orderInCategory="100"
+        android:title="@string/Проверить_обновление" />
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="102"
+        android:title="@string/exit" />
+</menu>

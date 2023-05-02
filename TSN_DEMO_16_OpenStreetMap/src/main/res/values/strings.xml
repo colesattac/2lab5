@@ -1,0 +1,22 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+    <string name="app_name">TSN_DEMO_16_OpenStreetMap</string>
+    <string name="Город">Pavlodar, KZ</string>
+    <string name="Язык">ru</string>
+    <string name="загрузка">Загрузка…</string>
+    <string name="Обновить">ОБНОВИТЬ</string>
+    <string name="Нет_данных_о_погоде">Нет данных о погоде!</string>
+    <string name="Нет_данных_о_котировках">Нет данных о котировках!</string>
+    <string name="Проверьте_доступность_интернета">Проверьте доступность интернета</string>
+    <string name="обновление">обновление…</string>
+    <string name="обновление_виджетов">обновление виджетов…</string>
+    <string name="О_программе">О программе</string>
+    <string name="email">Отзывы и предложения по адресу: proffix4@gmail.com</string>
+    <string name="exit">Выход</string>
+    <string name="ветер">ветер</string>
+    <string name="мс">м/с</string>
+    <string name="напр">напр.:</string>
+    <string name="вы">вы</string>
+    <string name="username">proffix4</string>
+    <string name="Проверить_обновление">Проверить обновление</string>
+    <string name="time_temp_update">Время обновления</string>
+</resources>
